@@ -4,3 +4,4 @@ Android Libraries Repository
 This repository was created to host android libraries not available in public maven repositories.
 
 Currente libs:
+- Holographlibrary (https://bitbucket.org/danielnadeau/holographlibrary)
