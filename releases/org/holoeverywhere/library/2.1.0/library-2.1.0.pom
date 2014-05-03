@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.holoeverywhere</groupId>
+  <artifactId>library</artifactId>
+  <version>2.1.0</version>
+  <packaging>aar</packaging>
+  <name>HoloEverywhere</name>
+  <description>Main HoloEverywhere library artifact</description>
+  <url>https://github.com/Prototik/HoloEverywhere</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://raw.github.com/Prototik/HoloEverywhere/master/LICENSE</url>
+      <distribution>repo</distribution>
+      <comments>Copyright (c) 2013 Sergey Shatunov</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Prototik</id>
+      <name>Sergey Shatunov</name>
+      <email>prototypegamez@gmail.com</email>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>+8</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:Prototik/HoloEverywhere.git</connection>
+    <developerConnection>scm:git@github.com:Prototik/HoloEverywhere.git</developerConnection>
+    <url>https://github.com/Prototik/HoloEverywhere</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.nineoldandroids</groupId>
+      <artifactId>library</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>18.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
